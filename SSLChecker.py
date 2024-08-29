@@ -55,7 +55,7 @@ def main():
             results = executor.map(SSL_Checker, subdomains)
 
         table_data = [(subdomain, status, icon) for subdomain, status, icon in results]
-        print(tabulate(table_data, headers=["Subdomain", "Status", "Result"], tablefmt="grid"))
+        print(tabulate(table_data, headers=["Domain/Subdomain", "Status", "Result"], tablefmt="grid"))
 
     except FileNotFoundError:
         print(f"File not found: {args.list}")
