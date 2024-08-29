@@ -1,6 +1,6 @@
 ## SSL Checker
 
-The SSL Checker tool allows you to verify whether SSL certificates are present for a specified list of domain/subdomains.
+SSL Checker tool allows you to verify whether SSL certificates are present for a specified list of domains/subdomains.
 
 ### Requirements
 - Python 3.x
